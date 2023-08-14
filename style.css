@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(73, 66, 66);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles{
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5rem;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+p{
+    font-size: 18px;
+    font-style: italic;
+}
+
+form {
+    background-color: rgb(206, 164, 110);
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+#name, #email, #number, #dropdown, #dropdown2{
+    display: block;
+    width: 95%;
+    height: 23px;
+    border-radius: 7px;
+    border-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 2.0em;
+}
+
+input{
+    padding: 15px;
+    font-size: 18px;
+    color: grey;
+}
+
+::placeholder, #dropdown, #dropdown2 {
+    color: grey;
+    text-align: left;
+    font-size: 17px;
+    left: 5px;
+}
+
+#dropdown, #dropdown2{
+    height: 3em;
+    padding: 15px;
+    width: 99%;
+    color: grey;
+}
+
+.radio label {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.radio input[type="radio"] {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.radio {
+    margin-bottom: 1em; /* Add margin at the bottom of the .radio div */
+}
+
+span{
+    font-size: 14px;
+}
+
+.improve input{
+    margin-top: 0.8em;
+}
+
+.improve{
+    margin-bottom: 1.7em;
+}
+
+.comments textarea{
+    margin-top: 0.5em;
+    display: block;
+    width: 95%;
+    resize: none;
+    font-family: arial;
+    padding: 15px;
+    font-size: 18px;
+    height: 100px;
+}
+
+textarea{
+    color: gray;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 2em;
+}
+
+button{
+    align-content: center;
+}
+
+.button-center
+{
+    text-align: justify;
+}
+
+button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 7px;
+    background-color: rgb(83, 139, 27);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-bottom: 2em;
+}
