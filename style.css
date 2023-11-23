@@ -1,130 +1,168 @@
-body{
-    background-color: rgb(73, 66, 66);
-    color: white;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #706233;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titles{
+header {
     text-align: center;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0.5rem;
-    color: white;
+    margin: 0 auto;
+    width: auto;
 }
 
-h1{
-    font-size: 40px;
-    margin-bottom: 0.5em;
-    font-weight: normal;
+fieldset {
+    border: none;
+    padding: 0; 
+    margin: 0;
 }
 
-p{
-    font-size: 18px;
+h1 {
+    color: #FEFAE0;
+    font-size: 33px;
+    margin-top: 35px;
+}
+
+p {
+    color: #FEFAE0;
+    font-size: 16px;
     font-style: italic;
 }
 
-form {
-    background-color: rgb(206, 164, 110);
-    width: 40%;
+#container {
+    max-width: 650px;
+    background-color: #B0926A;
     margin: 0 auto;
-    padding: 30px;
     border-radius: 10px;
-    font-size: 19px;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
-
-#name, #email, #number, #dropdown, #dropdown2{
+#name-label,
+#email-label,
+#number-label {
     display: block;
-    width: 95%;
-    height: 23px;
-    border-radius: 7px;
-    border-style: none;
-    margin-top: 0.5em;
-    margin-bottom: 2.0em;
-}
-
-input{
-    padding: 15px;
+    margin-bottom: 5px;
     font-size: 18px;
-    color: grey;
+    color: white;
 }
 
-::placeholder, #dropdown, #dropdown2 {
-    color: grey;
-    text-align: left;
-    font-size: 17px;
-    left: 5px;
+::placeholder {
+    color: rgb(78, 74, 74);
+    font-size: 16px;
 }
 
-#dropdown, #dropdown2{
-    height: 3em;
-    padding: 15px;
-    width: 99%;
-    color: grey;
+.first input {
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-indent: 15px;
+    font-size: 16px;
+    color: rgb(39, 36, 36);
 }
 
-.radio label {
-    display: inline-block;
-    margin-bottom: 12px;
+#dropdown {
+    display: block;
+    color: rgb(78, 74, 74);
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
 }
 
-.radio input[type="radio"] {
+#options {
+    font-size: 18px;
+    color: white;
+}
+
+.second{
+    margin-top: 35px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.second input{
+    margin-left: 0;
+    margin-bottom: 15px;
     margin-right: 5px;
-    width: 15px;
-    height: 15px;
 }
 
-.radio {
-    margin-bottom: 1em;
+input[type="radio"]{
+    transform: scale(1.3);
+}
+
+.selections{
+    margin-top: 12px;
+}
+
+#features{
+    font-size: 18px;
+    color: white;
+}
+
+.third label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.third input[type="checkbox"] {
+    margin-right: 5px; /* Adjust as needed */
+    transform: scale(1.3);
+}
+
+.third{
+    margin-top: 35px;
+    color: white;
+    font-size: 18px;
 }
 
 span{
-    font-size: 14px;
+    font-size: 15px;
 }
 
-.improve input{
-    margin-top: 0.8em;
-}
-
-.improve{
-    margin-bottom: 1.7em;
-}
-
-.comments textarea{
-    margin-top: 0.5em;
-    display: block;
-    width: 95%;
-    resize: none;
-    font-family: arial;
-    padding: 15px;
-    font-size: 18px;
-    height: 100px;
+#checks{
+    margin-bottom: 15px;
 }
 
 textarea{
-    color: gray;
-    border: none;
-    border-radius: 7px;
-    margin-bottom: 2em;
-}
-
-button{
-    align-content: center;
-}
-
-.button-center{
-    text-align: justify;
-}
-
-button{
     width: 100%;
-    padding: 13px;
-    border-radius: 7px;
-    background-color: rgb(83, 139, 27);
+    border-radius: 10px;
+    resize: none;
+    font-size: 16px;
+    color: rgb(39, 36, 36);
+    padding: 15px;
+}
+
+.fourth{
+    margin-top: 35px;
     color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    margin-bottom: 2em;
+}
+
+#suggestions{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button{
+    display: flex;
+    margin: 35px auto 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    background-color: #36B065;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
 }
