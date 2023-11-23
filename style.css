@@ -110,6 +110,18 @@ input[type="radio"]{
     color: white;
 }
 
+#dropdown2 {
+    display: block;
+    color: rgb(78, 74, 74);
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
 .third label{
     display: block;
     margin-bottom: 10px;
